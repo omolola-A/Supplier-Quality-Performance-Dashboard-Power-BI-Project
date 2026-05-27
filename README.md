@@ -11,29 +11,31 @@ The dashboard was designed to help management answer critical business questions
 * Microsoft PowerPoint
 * Adobe Color
 * Flaticon
-* Project Background
+
+## Project Background
 
 Enterprise Manufacturers Ltd lacked a centralized procurement and supplier quality monitoring system. Data existed across multiple plants, but there was no consistent way to evaluate supplier performance or operational impact.
 
 The business needed a solution that could:
 
-Track supplier defects
-Measure downtime caused by defective materials
-Identify poorly performing vendors and plants
-Compare material quality across locations
-Support data-driven procurement decisions
-Business Questions
+* Track supplier defects
+* Measure downtime caused by defective materials
+* Identify poorly performing vendors and plants
+* Compare material quality across locations
+* Support data-driven procurement decisions
 
+## Business Questions
 The dashboard was built to answer the following key questions:
+1. Which vendors are causing the greatest defect quantity?
+2. Which plants are experiencing the greatest downtime?
+3. Which material-vendor combinations perform poorly?
+4. Which vendor-plant combinations perform poorly?
+5. How does the same vendor/material perform across different plants?
+6. What is the operational cost of downtime?
 
-Which vendors are causing the greatest defect quantity?
-Which plants are experiencing the greatest downtime?
-Which material-vendor combinations perform poorly?
-Which vendor-plant combinations perform poorly?
-How does the same vendor/material perform across different plants?
-What is the operational cost of downtime?
-Dashboard Pages
-1. Landing Page
+## Dashboard Pages
+
+### 1. Landing Page
 
 The landing page introduces the dashboard and provides smooth navigation across all report pages.
 
