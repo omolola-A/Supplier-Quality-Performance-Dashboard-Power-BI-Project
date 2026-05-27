@@ -37,160 +37,195 @@ The dashboard was built to answer the following key questions:
 
 ### 1. Landing Page
 
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/LandingPage.png)
+
 The landing page introduces the dashboard and provides smooth navigation across all report pages.
 
-Features
-Custom dashboard background
-Navigation menu
-Interactive page routing
-Professional layout design
-Key Learning
+### Features
+* Custom dashboard background
+* Navigation menu
+* Interactive page routing
+* Professional layout design
 
+### Key Learning
 This was where I improved my understanding of:
 
-Page navigation
-Bookmarks
-Selection pane
-Show/hide interactions
-Navigation buttons
-Interactive user experience design
-2. Overview Page
-Purpose
+* Page navigation
+* Bookmarks
+* Selection pane
+* Show/hide interactions
+* Navigation buttons
+* Interactive user experience design
+  
+### 2. Overview Page
 
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/Overview.png)
+
+### Purpose
 Provides a high-level summary of supplier quality performance.
 
-KPIs Included
-Total Defects
-Downtime Hours
-Downtime Cost
-Monthly Trends
-Impact vs No Impact vs Rejected Metrics
-Insights
-Defects and downtime increased significantly compared to the previous year
-Certain categories and plants contributed heavily to operational losses
-Downtime cost exceeded millions in operational impact
-3. Vendor Performance Page
-Purpose
+### KPIs Included
+* Total Defects
+* Downtime Hours
+* Downtime Cost
+* Monthly Trends
+* Impact vs No Impact vs Rejected Metrics
+
+### Insights
+* Defects and downtime increased significantly compared to the previous year
+* Certain categories and plants contributed heavily to operational losses
+* Downtime cost exceeded millions in operational impact
+
+### 3. Vendor Performance Page
+
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/VendorPerformance.png)
+
+### Purpose
 
 Analyze vendor risk and supplier quality.
 
-Features
-Top/Bottom vendor analysis
-Risk segmentation:
-High Risk Vendors
-Medium Risk Vendors
-Low Risk Vendors
-Scatter plot analysis
-Vendor defect comparison matrix
-Insights
-Some vendors consistently generated high defects and downtime
-Vendor risk clusters became easy to identify visually
-Defect quantity strongly influenced downtime impact
-4. Plant Performance Page
-Purpose
+### Features
+* Top/Bottom vendor analysis
+* Risk segmentation:
+  * High Risk Vendors
+  * Medium Risk Vendors
+  * Low Risk Vendors
+* Scatter plot analysis
+* Vendor defect comparison matrix
+
+### Insights
+* Some vendors consistently generated high defects and downtime
+* Vendor risk clusters became easy to identify visually
+* Defect quantity strongly influenced downtime impact
+
+### 4. Plant Performance Page
+
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/Plant.png)
+
+### Purpose
 
 Evaluate plant-level operational performance.
 
-Features
-Top and Bottom performing plants
-Defect quantity by plant
-Downtime hour analysis
-Impact comparison matrix
-Insights
-Some plants experienced significantly higher downtime
-Performance inconsistency existed across locations
-Certain plants were heavily affected by rejected materials
-5. Material Performance Page
-Purpose
+### Features
+* Top and Bottom performing plants
+* Defect quantity by plant
+* Downtime hour analysis
+* Impact comparison matrix
+
+### Insights
+* Some plants experienced significantly higher downtime
+* Performance inconsistency existed across locations
+* Certain plants were heavily affected by rejected materials
+
+### 5. Material Performance Page
+
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/Material.png)
+
+### Purpose
 
 Identify problematic materials and categories.
 
-Features
-Defect quantity by material type
-Defect quantity by category
-Monthly trend analysis
-Defect analysis by defect type
-Insights
-Raw materials and corrugates contributed heavily to defects
-Mechanical and logistics categories showed major quality concerns
-Monthly spikes highlighted periods of operational instability
-6. Downtime Impact Page
-Purpose
+### Features
+* Defect quantity by material type
+* Defect quantity by category
+* Monthly trend analysis
+* Defect analysis by defect type
+
+### Insights
+* Raw materials and corrugates contributed heavily to defects
+* Mechanical and logistics categories showed major quality concerns
+* Monthly spikes highlighted periods of operational instability
+
+### 6. Downtime Impact Page
+
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/Impact.png)
+
+### Purpose
 
 Measure operational and financial impact of downtime.
 
-Features
-Downtime cost by day and month
-Vendor and material impact tables
-Downtime hours analysis
-Cost per hour calculations
-Insights
-Downtime costs varied significantly across months
-Certain materials and vendors caused disproportionate operational losses
-Cost visibility improved decision-making potential
-Data Modeling & Power BI Techniques Used
-Data Modeling
-Relationship creation
-Data cleaning and transformation
-Measure creation using DAX
-KPI calculations
-Power BI Features Used
-Bookmarks
-Selection Pane
-Page Navigation
-Slicers
-Drill-through concepts
-Interactive filtering
-Dynamic buttons
-Toggle visuals
-Custom themes
-Matrix visuals
-Scatter charts
-Bar charts
-Trend analysis visuals
-Design Process
-Dashboard Template Design
+### Features
+* Downtime cost by day and month
+* Vendor and material impact tables
+* Downtime hours analysis
+* Cost per hour calculations
+
+### Insights
+* Downtime costs varied significantly across months
+* Certain materials and vendors caused disproportionate operational losses
+* Cost visibility improved decision-making potential
+
+## Data Modeling & Power BI Techniques Used
+### Data Modeling
+
+![](https://github.com/omolola-A/Supplier-Quality-Performance-Dashboard-Power-BI-Project/blob/main/Relationship.png)
+
+* Relationship creation
+* Normalization
+* Data cleaning and transformation
+* Measure creation using DAX
+* KPI calculations
+
+### Power BI Features Used
+* Bookmarks
+* Selection Pane
+* Page Navigation
+* Slicers
+* Drill-through concepts
+* Interactive filtering
+* Dynamic buttons
+* Toggle visuals
+* Custom themes
+* Matrix visuals
+* Scatter charts
+* Bar charts
+* Trend analysis visuals
+
+## Design Process
+### Dashboard Template Design
 
 The dashboard interface was first designed in PowerPoint to create:
+* Layout structure
+* Color consistency
+* Professional branding
+* Navigation alignment
 
-Layout structure
-Color consistency
-Professional branding
-Navigation alignment
-Icons & Styling
-Icons sourced from Flaticon
-Colors selected using Adobe Color
-Dark teal theme used for consistency and readability
-Challenges Faced
+### Icons & Styling
+* Icons sourced from Flaticon
+* Colors selected using Adobe Color
+* Dark teal theme used for consistency and readability
+
+## Challenges Faced
 
 This project involved a lot of experimentation and learning.
 
 Some major challenges included:
 
-Managing page interactions
-Understanding bookmarks deeply
-Controlling visual visibility using the selection pane
-Designing smooth navigation experiences
-Structuring visuals for readability
-Creating a professional dashboard appearance
-Balancing performance and aesthetics
-What I Learned
+* Managing page interactions
+* Understanding bookmarks deeply
+* Controlling visual visibility using the selection pane
+* Designing smooth navigation experiences
+* Structuring visuals for readability
+* Creating a professional dashboard appearance
+* Balancing performance and aesthetics
+
+## What I Learned
 
 This project significantly improved my Power BI skills.
 
 I learned:
 
-Advanced use of bookmarks
-Using the selection pane effectively
-Creating interactive dashboard navigation
-Hiding and displaying visuals dynamically
-Designing professional dashboards
-Improving dashboard storytelling
-Building a more user-friendly reporting experience
+* Advanced use of bookmarks
+* Using the selection pane effectively
+* Creating interactive dashboard navigation
+* Hiding and displaying visuals dynamically
+* Designing professional dashboards
+* Improving dashboard storytelling
+* Building a more user-friendly reporting experience
 
 Although I already understood basic page navigation, this project helped me use it in a much more robust and practical way.
 
-Final Reflection
+## Final Reflection
 
 This project was honestly a whole lot of work, learning, and improvement.
 
@@ -198,9 +233,9 @@ From building the overview page to creating vendor, plant, material, and downtim
 
 Beyond data visualization, I also learned the importance of:
 
-User experience
-Dashboard storytelling
-Layout design
-Interactive reporting
+* User experience
+* Dashboard storytelling
+* Layout design
+* Interactive reporting
 
 Overall, this project strengthened my confidence in building end-to-end Power BI dashboards that combine analytics, design, and business insights.
